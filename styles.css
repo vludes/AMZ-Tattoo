@@ -576,6 +576,42 @@ footer div:first-child {
   margin: 0 5px 0 5px;
 }
 
+@media screen and (max-width: 800px) {
+
+  
+  #bubbles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+  }
+  #bubbles p {
+    margin-right: 25px;
+    font-size: 10px;
+  }
+  #bubbles p:last-child {
+    margin-right: 10px;
+  }
+
+  #logo-button {
+    width: 40%;
+    height: 35px;
+    margin-top: 10px;
+    margin-right: 0;
+    background-color: red;
+    border-radius: 2em;
+    text-align: center;
+    transition: 0.5s linear;
+  }
+
+  #logo-button p {
+    display: inline;
+    line-height: 35px;
+    font-size: 10px;
+  }
+
+}
+
 @media screen and (max-width: 650px) {
   footer div:first-child p {
     font-size: 80%;
@@ -621,7 +657,7 @@ footer div:first-child {
 
   .submit-block-flex-wrapper div:last-child {
     width: 25%;
-    margin-top: 45px;
+    margin-top: 25px;
   }
 
    .submit-block-flex-wrapper div > p {
@@ -635,6 +671,28 @@ footer div:first-child {
 
 }
 
+
+/* @media screen and (max-width: 960px) {
+  .ul-div.active {
+    transform: translate(115%, 0%);
+    height: 95%;
+  }
+  #logo-div p {
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 11px 0 0 11px;
+  }
+  #logo-div img {
+        width: 20%;
+    padding: 4px 0 0 0;
+  }
+  #logo-div {
+    width: 84%;
+    height: 45px;
+    margin-top: 5px;
+} */
 
 
 @media screen and (max-width: 1629px) {
@@ -669,6 +727,7 @@ align-items: center;
 
 .steps > div {
   margin-top: 5%;
+  width: 100vw;
 }
 
 .how-we-work h1 {
@@ -806,4 +865,25 @@ align-items: center;
     top: 50%;
     transform: translate(-50%, 0%) rotate(-45deg);
   }
+   .ul-div.active {
+    transform: translate(115%, 0%);
+    height: 95%;
+  }
+  #logo-div p {
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 11px 0 0 11px;
+  }
+  #logo-div img {
+        width: 20%;
+    padding: 4px 0 0 0;
+  }
+  #logo-div {
+    width: 84%;
+    height: 45px;
+    margin-top: 5px;
+  }
+
 }
