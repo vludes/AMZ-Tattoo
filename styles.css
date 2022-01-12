@@ -656,11 +656,11 @@ footer div:first-child {
   .sub-slider-flex-left {
     margin-bottom: 3%;
     background-size: cover;
-    width: 50vw;
+    width: 70vw;
   }
 
   .sub-slider-flex-right {
-    width: 50vw;
+    width: 70vw;
   }
 
   #our-works-block-img-1,
@@ -669,7 +669,7 @@ footer div:first-child {
   #our-works-block-img-4,
   #our-works-block-img-5,
   #our-works-block-img-6 {
-    width: 50vw;
+    width: 70vw;
   }
 
   .submit-block > p {
@@ -679,7 +679,7 @@ footer div:first-child {
 
   .submit-block-flex-wrapper div:last-child {
     width: 25%;
-    margin-top: 25px;
+    margin-top: 50px;
   }
 
    .submit-block-flex-wrapper div > p {
