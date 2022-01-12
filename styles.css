@@ -618,7 +618,7 @@ footer div:first-child {
   }
 
   header {
-    width: 100%;
+    width: calc(100% - 60px);
 
   }
 
