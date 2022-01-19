@@ -10,16 +10,28 @@ menuBtn.addEventListener('click', function () {
 window.onscroll = function () {
     var top = window.scrollY;
     var header = document.getElementsByTagName('header');
-    var offset = header.innerHeight;
+    var offset = $("header").height();
+    console.log(top);
+    console.log(offset);
+
     if (top > offset) {
         header[0].classList.remove('top');
         header[0].classList.add('scrolled');
+        console.log("ifHappened");
     } else {
         header[0].classList.remove('scrolled');
         header[0].classList.add('top');
+        console.log("elseHappensd");
     }
+
+
 };
 
 
 
-$('.slider').slick();
+$('.slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+})

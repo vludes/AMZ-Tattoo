@@ -25,13 +25,13 @@ header {
 
 
 header.top {
-  background: rgba(34, 34, 34, 0.5);
+  background: rgba(0, 0, 0, 0);
   color: #fff;
   transition: all 0.3s ease;
 }
 
 header.scrolled {
-	background: rgba(85, 85, 85, 0.1111);
+	background: rgba(85, 85, 85, 0.5);
 	color: #e0e0e0;
 transition: all 0.3s ease;
 }
@@ -173,6 +173,11 @@ li a:hover {
   background: url(./w4.png);
   height: 90vh;
   width: 100%;
+}
+
+ul.slick-dots {
+    bottom: 35px;
+   
 }
 
 .sub-slider {
@@ -406,7 +411,7 @@ li a:hover {
   flex-direction: row;
   justify-content: space-around;
   padding-bottom: 50px;
-  width: 80%;
+  width: 100%;
   margin: 0 20px 0 20px;
 }
 
