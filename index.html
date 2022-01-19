@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1 (1)/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1 (1)/slick-theme.css"/>
     <title>AMZ Tattoo</title>
 </head>
 <body>
@@ -34,9 +36,9 @@
     <div class="header-right">
     <div id="bubbles">
         <img src="./email.png" alt="email">
-        <p><a href="#">Написать нам</a></p>
+        <a href="#">Написать нам</a>
         <img src="./speech-bubble.png" alt="speech-bubble">
-        <p><a href="#">+7(495)223456</a></p>
+        <a href="#">+7(495)223456</a>
     </div>
     <div id="logo-button">
         <p><a href="#">Записаться на сеанс</a></p>
@@ -44,6 +46,9 @@
     </div>
 </header>   
 <div class="slider">
+    <div class="slider-images-1"></div>
+    <div class="slider-images-2"></div>
+    <div class="slider-images-3"></div>
 </div>
 <div class="sub-slider">
     <p>Почему выбирают нас?</p>
@@ -129,16 +134,15 @@
 <div class="submit-block">
     <div class="submit-block-flex-wrapper">
     <div>
-        <p>Ваше имя</p>
-        <input type="text" placeholder="Имя">
+        <label for="input-name">Имя</label>
+        <input id="input-name" type="text" placeholder="Имя">
     </div>
     <div>
-        <p>Телефон</p>
-        <input type="text" placeholder="Телефон">
+        <label for="input-phone">Номер телефона</label>
+        <input id="input-phone" type="text" placeholder="Телефон">
     </div>
-    <div>
-        <p>Записаться</p>
-    </div>
+        <!-- <a href="#">Записаться</a> -->
+        <button>Записаться</button>
     </div>
         <p>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности.</p>
 </div>
@@ -187,6 +191,10 @@
     </div>
 </footer>
 <div class="subfooter"></div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="./slick-1.8.1 (1)/slick.min.js"></script>
 <script src="./app.js"></script>
 </body>
 </html>

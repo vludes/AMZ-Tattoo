@@ -9,7 +9,6 @@ menuBtn.addEventListener('click', function () {
 
 window.onscroll = function () {
     var top = window.scrollY;
-    console.log('Top: ' + top);
     var header = document.getElementsByTagName('header');
     var offset = header.innerHeight;
     if (top > offset) {
@@ -20,3 +19,7 @@ window.onscroll = function () {
         header[0].classList.add('top');
     }
 };
+
+
+
+$('.slider').slick();
